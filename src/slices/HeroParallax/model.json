@@ -1,0 +1,16 @@
+{
+  "id": "hero_parallax",
+  "type": "SharedSlice",
+  "name": "HeroParallax",
+  "description": "HeroParallax",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": ""
+    }
+  ]
+}

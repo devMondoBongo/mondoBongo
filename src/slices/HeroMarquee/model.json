@@ -1,0 +1,16 @@
+{
+  "id": "hero_marquee",
+  "type": "SharedSlice",
+  "name": "HeroMarquee",
+  "description": "HeroMarquee",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": ""
+    }
+  ]
+}

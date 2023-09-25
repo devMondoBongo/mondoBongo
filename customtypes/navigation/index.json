@@ -1,0 +1,63 @@
+{
+  "id": "navigation",
+  "label": "Navigation",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "homepageLabel": {
+				"type": "Text",
+        "config": {
+          "label": "Homepage Label",
+          "placeholder": "Label for the homepage link"
+        }
+      },
+      "links": {
+        "type": "Group",
+        "config": {
+          "label": "Links",
+          "fields": {
+            "label": {
+							"type": "Text",
+              "config": {
+                "label": "Label",
+                "placeholder": "Optional - Label for the link"
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "Link for navigation item",
+                "select": null
+              }
+            }
+          }
+        }
+      },
+			"actions": {
+				"type": "Group",
+				"config": {
+					"label": "Actions",
+					"fields": {
+						"label": {
+							"type": "Text",
+							"config": {
+								"label": "Label",
+								"placeholder": "Optional - Label for the link"
+							}
+						},
+						"link": {
+							"type": "Link",
+							"config": {
+								"label": "Link",
+								"placeholder": "Link for navigation item",
+								"select": null
+							}
+						}
+					}
+				}
+			}
+    }
+  }
+}

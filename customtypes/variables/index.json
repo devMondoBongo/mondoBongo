@@ -1,0 +1,115 @@
+{
+  "id": "variables",
+  "label": "Variables",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "next": {
+        "type": "Group",
+        "config": {
+          "label": "Next",
+          "fields": {
+            "translation": {
+              "type": "Text",
+              "config": {
+                "label": "Translation",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "previous": {
+        "type": "Group",
+        "config": {
+          "label": "Previous",
+          "fields": {
+            "translation": {
+              "type": "Text",
+              "config": {
+                "label": "Translation",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "close": {
+        "type": "Group",
+        "config": {
+          "label": "Close",
+          "fields": {
+            "translation": {
+              "type": "Text",
+              "config": {
+                "label": "Translation",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "open": {
+        "type": "Group",
+        "config": {
+          "label": "Open",
+          "fields": {
+            "translation": {
+              "type": "Text",
+              "config": {
+                "label": "Translation",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "go_to": {
+        "type": "Group",
+        "config": {
+          "label": "Go to",
+          "fields": {
+            "translation": {
+              "type": "Text",
+              "config": {
+                "label": "Translation",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "send": {
+        "type": "Group",
+        "config": {
+          "label": "Send",
+          "fields": {
+            "translation": {
+              "type": "Text",
+              "config": {
+                "label": "Translation",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "book": {
+        "type": "Group",
+        "config": {
+          "label": "Book",
+          "fields": {
+            "translation": {
+              "type": "Text",
+              "config": {
+                "label": "Translation",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
